@@ -1,0 +1,35 @@
+{
+  "ruleChain": {
+    "id": "bCy2C0jx_K7V",
+    "name": "",
+    "debugMode": false,
+    "root": false,
+    "disabled": false,
+    "additionalInfo": {
+      "createTime": "2024/12/27 13:34:05",
+      "layoutX": "280",
+      "layoutY": "280",
+      "updateTime": "2024/12/27 13:34:05",
+      "username": "admin"
+    }
+  },
+  "metadata": {
+    "firstNodeIndex": 0,
+    "nodes": [
+      {
+        "id": "node_2",
+        "additionalInfo": {
+          "layoutX": 480,
+          "layoutY": 280
+        },
+        "type": "jsFilter",
+        "name": "t1",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "// 若加速度大於 3，視為急加速；小於 -4，視為急減速\nif (msg.acceleration > 3) {\n  return true;\n} else if (msg.acceleration < -4) {\n  return true;\n} else {\n  return false;\n}"
+        }
+      }
+    ],
+    "connections": []
+  }
+}

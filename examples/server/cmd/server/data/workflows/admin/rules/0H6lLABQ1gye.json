@@ -1,0 +1,21 @@
+{
+  "ruleChain": {
+    "id": "0H6lLABQ1gye",
+    "name": "",
+    "debugMode": false,
+    "root": false,
+    "disabled": false,
+    "additionalInfo": {
+      "createTime": "2024/12/27 13:31:15",
+      "layoutX": "280",
+      "layoutY": "280",
+      "updateTime": "2024/12/27 13:31:15",
+      "username": "admin"
+    }
+  },
+  "metadata": {
+    "firstNodeIndex": 0,
+    "nodes": [],
+    "connections": []
+  }
+}
